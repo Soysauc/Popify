@@ -1,0 +1,29 @@
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: var(--top-color);
+  color: white;
+}
+.footer__title {
+  margin-top: 0;
+}
+.footer__columns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+.footer__column {
+  display: flex;
+  font-size: 11px;
+}
+.footer__column:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.footer__contact {
+  width: 15px;
+  height: 15px;
+  align-self: center;
+  margin-right: 5px;
+}

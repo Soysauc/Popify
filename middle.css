@@ -1,0 +1,14 @@
+.middle {
+  height: 625px;
+  background-color: var(--top-color);
+  transition: transform 0.3s;
+  color: white;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 40rem) {
+  .middle {
+    display: inline-block;
+    width: 68.75%;
+  }
+}
