@@ -1,0 +1,29 @@
+:root {
+  --left-color: #1db954;
+  --top-color: #191414;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+span {
+  color: var(--top-color);
+}
+.wrap {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.wrap-middle {
+  width: 100%;
+  display: flex;
+  font-size: 0;
+  position: relative;
+}
