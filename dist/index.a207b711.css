@@ -238,6 +238,17 @@ canvas {
   border-radius: 15px;
 }
 
+.middle__image {
+  max-width: 600px;
+  background-color: var(--left-color);
+  border-radius: 15px;
+}
+
+.middle__image:hover {
+  outline: 3px solid var(--left-color);
+  transition: all .2s ease-in;
+}
+
 .right {
   width: 100%;
   background-color: var(--left-color);

@@ -28,3 +28,13 @@ canvas {
   border: 3px solid var(--left-color);
   border-radius: 15px;
 }
+
+.middle__image {
+  max-width: 600px;
+  background-color: var(--left-color);
+  border-radius: 15px;
+}
+.middle__image:hover {
+  outline: 3px solid var(--left-color);
+  transition: 0.2s ease-in;
+}
