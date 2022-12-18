@@ -10,16 +10,19 @@
   align-self: flex-end;
   margin-left: 30px;
 }
+.header__container {
+  display: flex;
+}
 .header__image {
-  width: 75px;
-  height: 75px;
-  margin: 25px;
+  width: 55px;
+  height: 55px;
+  margin: 45px 15px 5px 15px;
 }
 .header__title {
   color: white;
   align-self: flex-end;
-  margin-bottom: 15px;
-  margin-left: 25px;
-  font-size: 70px;
+  margin-bottom: 25px;
+  /* margin-left: 25px; */
+  /* font-size: 70px; */
   font-family: "Rubik 80s Fade", cursive;
 }

@@ -14,6 +14,7 @@
     
     <div class="wrap">
       <header class="header">
+        <div class="header__container">
         <img
           src="../images/Popifi-Logo.png"
           alt="Popify logo"
@@ -21,36 +22,41 @@
         />
         <h1 class="header__title">Popify <small>&#169</small></h1>
         <p class="header__text">By: The Music Junkies</p>
+        </div>
 
       </header>
       <main class="wrap-middle">
         <div class="left">
-          <ul class="left__nav">
+          <!-- <ul class="left__nav">
             <li class="left__nav-item"> 
               <img src="/images/home.svg" alt= "home button">
-              Home
             </li>
             <li class="left__nav-item"> 
               <img src="/images/search.svg" alt="search button">
-              Search
             </li>
             <li class="left__nav-item"> 
               <img src="/images/library.svg" alt="library icon ">
-              Library
             </li>
             <li class="left__nav-item"> 
               <img src="/images/playlist.svg" alt="playlist icon ">
-              Create Playlist
             </li>
+          </ul> -->
+          <ul class="left__circles">
+            <li class="left__circle"></li>
+            <li class="left__circle"></li>
+            <li class="left__circle"></li>
+            <li class="left__circle"></li>
+            <li class="left__circle"></li>
           </ul>
         </div>
         <main class="middle">
           <div style="width: 600px;"><canvas id="acquisitions"></canvas></div>
+          <div style="width: 600px;"><canvas id="bar"></canvas></div>
         </main>
 
 
 
-        <div class="right"></div>
+        <div class="right"> Analysis/ Story content pointing left. Right now trying to get Chart.js to work so this is a placeholder. If I can figure out how to input certain data then it'll be over.</div>
       </main>
 
       <footer class="footer">
@@ -78,5 +84,6 @@
     </div>
     <!-- <script src="index.js"></script> -->
     <script type="module" src="acquisitions.js"></script>
+     <script type="module" src="bar.js"></script>
   </body>
 </html>

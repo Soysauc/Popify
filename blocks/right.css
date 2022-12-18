@@ -1,5 +1,5 @@
 .right {
-  height: 625px;
+  /* height: 625px; */
   width: 100%;
   background-color: var(--left-color);
   font-size: 0.9rem;
@@ -8,7 +8,7 @@
 
 @media (min-width: 40rem) {
   .right {
-    width: 10.4166667%;
+    width: 20.8333333%;
     display: inline-block;
   }
 }

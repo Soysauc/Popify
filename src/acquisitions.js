@@ -2,22 +2,21 @@ import Chart from "chart.js/auto";
 
 (async function () {
   const data = [
-    { year: 2010, count: 10 },
-    { year: 2011, count: 20 },
-    { year: 2012, count: 15 },
-    { year: 2013, count: 25 },
-    { year: 2014, count: 22 },
-    { year: 2015, count: 30 },
-    { year: 2016, count: 28 },
+    { genre: "Dance Pop", count: 57 },
+    { genre: "British Soul", count: 4 },
+    { genre: "Electro Pop", count: 5 },
+    { genre: "Barbadian Pop", count: 7 },
+    { genre: "Canadian Pop", count: 11 },
+    { genre: "Pop", count: 16 },
   ];
 
   new Chart(document.getElementById("acquisitions"), {
     type: "pie",
     data: {
-      labels: data.map((row) => row.year),
+      labels: data.map((row) => row.genre),
       datasets: [
         {
-          label: "Proportion of Genres by top artists",
+          label: "The Proportion of Song Genres by top artists",
           data: data.map((row) => row.count),
         },
       ],

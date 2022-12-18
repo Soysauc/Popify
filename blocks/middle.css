@@ -1,5 +1,5 @@
 .middle {
-  height: 625px;
+  /* height: 625px; */
   background-color: var(--top-color);
   transition: transform 0.3s;
   color: white;
@@ -11,4 +11,7 @@
     display: inline-block;
     width: 68.75%;
   }
+}
+
+#acquisitions {
 }

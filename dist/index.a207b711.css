@@ -13,19 +13,21 @@
   font-family: "Rubik 80s Fade", cursive;
 }
 
+.header__container {
+  display: flex;
+}
+
 .header__image {
-  width: 75px;
-  height: 75px;
-  margin: 25px;
+  width: 55px;
+  height: 55px;
+  margin: 45px 15px 5px;
 }
 
 .header__title {
   color: #fff;
   align-self: flex-end;
-  margin-bottom: 15px;
-  margin-left: 25px;
+  margin-bottom: 25px;
   font-family: "Rubik 80s Fade", cursive;
-  font-size: 70px;
 }
 
 :root {
@@ -103,9 +105,9 @@ span {
 }
 
 .left {
-  height: 625px;
-  background-color: var(--left-color);
+  background-color: var(--top-color);
   width: 200px;
+  border: 3px var(--left-color);
   font-family: Mukta, sans-serif;
   font-size: .9rem;
   transition: transform .3s;
@@ -114,20 +116,23 @@ span {
   left: -200px;
 }
 
-.left__nav {
-  flex-direction: column;
-  gap: 50px;
+.left__circles {
+  flex-flow: column;
+  align-items: flex-end;
+  gap: 20px;
   list-style: none;
   display: flex;
 }
 
-.left__nav-item {
-  height: 25px;
-  width: 25px;
-  margin-top: 15px;
+.left__circle {
+  width: 100px;
+  height: 30px;
+  background-color: var(--left-color);
+  border-radius: 10px;
+  margin-right: 20px;
 }
 
-.left__nav-item:hover {
+.left__circle:hover {
   cursor: pointer;
   border-radius: 50px;
   outline: 2px solid #fff;
@@ -183,14 +188,13 @@ span {
 
 @media (min-width: 40rem) {
   .left {
-    width: 20.8333%;
+    width: 10.4167%;
     position: relative;
     left: 0;
   }
 }
 
 .middle {
-  height: 625px;
   background-color: var(--top-color);
   color: #fff;
   font-size: .9rem;
@@ -205,7 +209,6 @@ span {
 }
 
 .right {
-  height: 625px;
   width: 100%;
   background-color: var(--left-color);
   font-family: Mukta, sans-serif;
@@ -214,7 +217,7 @@ span {
 
 @media (min-width: 40rem) {
   .right {
-    width: 10.4167%;
+    width: 20.8333%;
     display: inline-block;
   }
 }
