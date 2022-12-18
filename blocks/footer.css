@@ -35,3 +35,7 @@
   align-self: center;
   margin-right: 5px;
 }
+.footer__link {
+  text-decoration: none;
+  color: white;
+}

@@ -42,40 +42,116 @@
             </li>
           </ul> -->
           <ul class="left__circles">
-            <li class="left__circle"></li>
-            <li class="left__circle"></li>
-            <li class="left__circle"></li>
-            <li class="left__circle"></li>
-            <li class="left__circle"></li>
+            <li class="left__circle">
+              <img src="/images/chart.png" alt= "home button" class="left__image">
+            </li>
+            <li class="left__circle">
+              <img src="/images/pie.png" alt= "home button" class="left__image">
+            </li>
+            <li class="left__circle">
+              <img src="/images/scatter.png" alt= "home button" class="left__image">
+            </li>
+            <li class="left__circle">
+              <img src="/images/home.svg" alt= "home button" class="left__image">
+            </li>
+            <li class="left__circle">
+              <img src="/images/home.svg" alt= "home button" class="left__image">
+            </li>
           </ul>
         </div>
         <main class="middle">
-          <div style="width: 600px;"><canvas id="acquisitions"></canvas></div>
+          <h2 class="middle__title">James's Findings:</h2>
+          <div class="middle__container">
           <div style="width: 600px;"><canvas id="bar"></canvas></div>
+           <div style="width: 500px;"><canvas id="acquisitions"></canvas></div>
+          <div style="width: 600px;"><canvas id="distribution"></canvas></div>
+          </div>
         </main>
 
-
-
-        <div class="right"> Analysis/ Story content pointing left. Right now trying to get Chart.js to work so this is a placeholder. If I can figure out how to input certain data then it'll be over.</div>
+        <div class="right"> <h3>Motown Records:</h3> <i>James</i> is a driven and ambitious A&R for Motown Records.
+He is eager to make his mark on the company and secure a promotion.
+In order to do so, he decides to carefully study the top songs of the last decade in order to
+replicate the winning formula used by other successful labels, Atlantic and Interscope.
+Armed with this knowledge, he sets out to find the next big artist and a hit song for Motown
+simultaneously starting his legacy.
+James begins his research by analyzing the top 20 artists from the United States, Canada, and
+the United Kingdom from 2010 to 2019. He finds that Katy Perry is the top artist, followed by
+Rhianna. In third place, there is a three-way tie between Justin Bieber, Lady Gaga, and Maroon
+5.
+<div>
+  <img src="/images/celebs.webp" alt="celebrities" class="right__image"/ height="200px">
+</div>
+James continues his research and discovers that 57% of the songs created by artists belong to
+the Dance-Pop genre. This is an interesting finding, as it suggests that Dance-Pop is a
+dominant and successful genre in the present music industry.
+Based on his findings, James decides to further investigate the popularity of Dance-Pop over
+the last decade. He discovers that 55% of the top songs of the last decade belonged to this
+genre. Additionally, he observes that Dance-Pop had popular songs every year from 2010 to
+2019. This suggests that the popularity of Dance-Pop is not just a temporary trend, but rather a
+consistent and enduring phenomenon in the music industry.
+He notices that songs released in 2019 are more popular than those released between 2010
+and 2018. This piques his curiosity and he begins to wonder what factors are most important in
+determining a song's popularity. He decides to conduct further research and analysis to better
+understand the underlying factors that drive a song's success.
+James decides to meet with a legendary music producer and conduct a joint analysis of popular
+songs. They find that loudness and danceability have the most significant positive impact on a
+song's popularity. Valence, acousticness, and beats per minute (BPM) also have positive
+relationships with popularity. Additionally, they observe that lower energy levels are associated
+with increased popularity.
+James noticed that factors such as duration, liveness, energy, and speeches all had a negative
+impact on a song's popularity. He made note of these findings and plans to share them with
+Motown's lead music producer to ensure that their songs avoid these negative factors
+He found that the easier a song was to dance to, the more popular it tended to be. The same
+was true for songs with high acousticness. He also noted that in the current era of short
+attention spans, long song durations were seen as a negative. Audiences tended to prefer
+shorter songs.
+<div>
+  <img src="/images/club.jpg" alt="celebrities" class="right__image"/ height="200px">
+</div>
+After conducting extensive research and analysis, James has developed a formula for success:
+<ul>
+<li>His artist should primarily make songs in English, due to English being the dominant
+language in popular songs.</li>
+<li> Due to the significant success of Dance-Pop songs in the past decade, the artist should
+focus on this genre.</li>
+<li>To maximize popularity, the artist's first song should have high acoustic tones, low
+energy, and short duration. Additionally, it should be easy to dance to.</li>
+</ul></div>
       </main>
 
       <footer class="footer">
-        <h3 class="footer__title">Music Junkies:</h3>
+        <h3 class="footer__title">The Music Junkies:</h3>
         <div class="footer__columns">
           <div class="footer__column">
-            <img src="/images/linkedin.svg" alt="linkedin" class="footer__contact">     
+            <img src="/images/linkedin.svg" alt="linkedin" class="footer__contact">
+            <a
+              class="footer__link"
+              href="https://www.linkedin.com/in/jeremy-rivera-411b41121/"
+            >     
              <p>Jeremy Rivera</p>
           </div>
           <div class="footer__column">
             <img src="/images/linkedin.svg" alt="linkedin" class="footer__contact">
+            <a
+              class="footer__link"
+              href="https://www.linkedin.com/in/justinshim"
+            >   
              <p><span>---</span>Justin Shim</p>
           </div>
           <div class="footer__column">
             <img src="/images/linkedin.svg" alt="linkedin" class="footer__contact">
+            <a
+              class="footer__link"
+              href="https://en.wikipedia.org/wiki/Tao"
+            >   
              <p><span>------</span>Tao Jiang</p>
           </div>
           <div class="footer__column">
             <img src="/images/linkedin.svg" alt="linkedin" class="footer__contact">
+            <a
+              class="footer__link"
+              href="https://www.linkedin.com/in/william-newsom"
+            >   
              <p><span>-</span>Will Newsom</p>
           </div>
         </div>
@@ -84,6 +160,7 @@
     </div>
     <!-- <script src="index.js"></script> -->
     <script type="module" src="acquisitions.js"></script>
-     <script type="module" src="bar.js"></script>
+    <script type="module" src="bar.js"></script>
+    <script type="module" src="distribution.js"></script>
   </body>
 </html>

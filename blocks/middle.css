@@ -4,14 +4,27 @@
   transition: transform 0.3s;
   color: white;
   font-size: 0.9rem;
+  font-family: "Rubik 80s Fade", cursive;
 }
-
+.middle__title {
+  color: white;
+  padding: 15px;
+  margin-left: 60px;
+}
+.middle__container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  gap: 65px;
+}
 @media (min-width: 40rem) {
   .middle {
     display: inline-block;
     width: 68.75%;
   }
 }
-
-#acquisitions {
+canvas {
+  border: 3px solid var(--left-color);
+  border-radius: 15px;
 }

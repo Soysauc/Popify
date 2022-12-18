@@ -104,10 +104,16 @@ span {
   margin-right: 5px;
 }
 
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .left {
   background-color: var(--top-color);
   width: 200px;
-  border: 3px var(--left-color);
+  border: 3px solid var(--left-color);
+  border-radius: 15px;
   font-family: Mukta, sans-serif;
   font-size: .9rem;
   transition: transform .3s;
@@ -126,7 +132,7 @@ span {
 
 .left__circle {
   width: 100px;
-  height: 30px;
+  height: 60px;
   background-color: var(--left-color);
   border-radius: 10px;
   margin-right: 20px;
@@ -186,6 +192,11 @@ span {
   }
 }
 
+.left__image {
+  height: 35px;
+  margin: 12px 30px;
+}
+
 @media (min-width: 40rem) {
   .left {
     width: 10.4167%;
@@ -197,8 +208,22 @@ span {
 .middle {
   background-color: var(--top-color);
   color: #fff;
+  font-family: "Rubik 80s Fade", cursive;
   font-size: .9rem;
   transition: transform .3s;
+}
+
+.middle__title {
+  color: #fff;
+  margin-left: 60px;
+  padding: 15px;
+}
+
+.middle__container {
+  flex-flow: column wrap;
+  align-content: space-around;
+  gap: 65px;
+  display: flex;
 }
 
 @media (min-width: 40rem) {
@@ -208,9 +233,15 @@ span {
   }
 }
 
+canvas {
+  border: 3px solid var(--left-color);
+  border-radius: 15px;
+}
+
 .right {
   width: 100%;
   background-color: var(--left-color);
+  border-radius: 15px;
   font-family: Mukta, sans-serif;
   font-size: .9rem;
 }

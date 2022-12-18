@@ -12,7 +12,8 @@
   font-size: 0.9rem;
   transition: transform 0.3s;
   font-family: "Mukta", sans-serif;
-  border: 3px var(--left-color);
+  border: 3px solid var(--left-color);
+  border-radius: 15px;
 }
 .left__circles {
   list-style: none;
@@ -24,7 +25,7 @@
 }
 .left__circle {
   width: 100px;
-  height: 30px;
+  height: 60px;
   background-color: var(--left-color);
   border-radius: 10px;
   margin-right: 20px;
@@ -70,6 +71,11 @@
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
+}
+
+.left__image {
+  height: 35px;
+  margin: 12px 30px;
 }
 @media (min-width: 40rem) {
   .left {
