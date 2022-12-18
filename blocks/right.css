@@ -3,6 +3,7 @@
   width: 100%;
   background-color: var(--left-color);
   font-size: 0.9rem;
+  font-family: "Mukta", sans-serif;
 }
 
 @media (min-width: 40rem) {

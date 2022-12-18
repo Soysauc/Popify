@@ -130,7 +130,7 @@ span {
 .left__nav-item:hover {
   cursor: pointer;
   border-radius: 50px;
-  outline: 2px solid #2f4f4f;
+  outline: 2px solid #fff;
   transition: all .25s ease-in-out;
   animation: .1s shake;
 }
@@ -208,6 +208,7 @@ span {
   height: 625px;
   width: 100%;
   background-color: var(--left-color);
+  font-family: Mukta, sans-serif;
   font-size: .9rem;
 }
 

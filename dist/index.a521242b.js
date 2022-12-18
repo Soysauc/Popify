@@ -567,12 +567,12 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
         }
     ];
     new (0, _autoDefault.default)(document.getElementById("acquisitions"), {
-        type: "bubble",
+        type: "pie",
         data: {
             labels: data.map((row)=>row.year),
             datasets: [
                 {
-                    label: "Acquisitions by year",
+                    label: "Proportion of Genres by top artists",
                     data: data.map((row)=>row.count)
                 }
             ]
