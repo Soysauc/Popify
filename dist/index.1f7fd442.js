@@ -741,7 +741,7 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
     new (0, _autoDefault.default)(document.getElementById("distribution"), {
         type: "line",
         data: {
-            labels: data.map((row)=>row.count),
+            labels: data.map((row)=>row.genre),
             datasets: [
                 {
                     label: "Popularity per genre",

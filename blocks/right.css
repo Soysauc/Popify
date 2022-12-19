@@ -1,15 +1,20 @@
 .right {
   /* height: 625px; */
   width: 100%;
-  background-color: var(--left-color);
+  background-color: var(--top-color);
+  color: var(--left-color);
   font-size: 0.9rem;
   font-family: "Mukta", sans-serif;
+  border: 3px solid var(--left-color);
   border-radius: 15px;
+  padding: 15px;
+  height: fit-content;
 }
 
 @media (min-width: 40rem) {
   .right {
-    width: 20.8333333%;
+    /* width: 20.8333333%; */
+    width: 25%;
     display: inline-block;
   }
 }

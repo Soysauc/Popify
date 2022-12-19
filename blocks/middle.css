@@ -9,24 +9,37 @@
 .middle__title {
   color: white;
   padding: 15px;
-  margin-left: 60px;
+  margin-left: 160px;
 }
 .middle__container {
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  margin-left: 200px;
   flex-wrap: wrap;
   gap: 65px;
 }
 @media (min-width: 40rem) {
   .middle {
     display: inline-block;
-    width: 68.75%;
+    /* width: 68.75%; */
+    width: 75%;
   }
 }
 canvas {
   border: 3px solid var(--left-color);
   border-radius: 15px;
+}
+
+.middle__text {
+  width: 570px;
+  height: 190px;
+  background-color: var(--left-color);
+  color: var(--top-color);
+  font-family: "Mukta", sans-serif;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 20px;
 }
 
 .middle__image {

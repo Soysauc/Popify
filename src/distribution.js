@@ -57,7 +57,7 @@ import Chart from "chart.js/auto";
   new Chart(document.getElementById("distribution"), {
     type: "line",
     data: {
-      labels: data.map((row) => row.count),
+      labels: data.map((row) => row.genre),
       datasets: [
         {
           label: "Popularity per genre",

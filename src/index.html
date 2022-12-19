@@ -27,49 +27,83 @@
       </header>
       <main class="wrap-middle">
         <div class="left">
-          <!-- <ul class="left__nav">
-            <li class="left__nav-item"> 
-              <img src="/images/home.svg" alt= "home button">
-            </li>
-            <li class="left__nav-item"> 
-              <img src="/images/search.svg" alt="search button">
-            </li>
-            <li class="left__nav-item"> 
-              <img src="/images/library.svg" alt="library icon ">
-            </li>
-            <li class="left__nav-item"> 
-              <img src="/images/playlist.svg" alt="playlist icon ">
-            </li>
-          </ul> -->
           <ul class="left__circles">
-            <li class="left__circle">
-              <img src="/images/up.png" alt= "home button" class="left__image">
+            <li class="left__circle" >
+              <a class="left__circle-link" href="#top">
+                <img src="/images/up.png" alt= "home button" class="left__image">
+              </a>
             </li>
             <li class="left__circle">
+              <a class="left__circle-link" href="#acquisitions">
               <img src="/images/chart.png" alt= "home button" class="left__image">
+              </a>
             </li>
             <li class="left__circle">
-              <img src="/images/pie.png" alt= "home button" class="left__image">
+              <a class="left__circle-link" href="#acquisitions">
+                <img src="/images/pie.png" alt= "home button" class="left__image">
+              </a>
             </li>
             <li class="left__circle">
-              <img src="/images/scatter.png" alt= "home button" class="left__image">
+              <a class="left__circle-link" href="#distribution">
+                <img src="/images/scatter.png" alt= "home button" class="left__image">
+              </a>
             </li>
             <li class="left__circle">
-              <img src="/images/donut.png" alt= "home button" class="left__image">
+                <a class="left__circle-link" href="#bell">
+                  <img src="/images/donut.png" alt= "home button" class="left__image">
+                </a>
             </li>
             <li class="left__circle">
+              <a class="left__circle-link" href="#contacts">
               <img src="/images/friends.png" alt= "home button" class="left__image">
+              </a>
             </li>
           </ul>
         </div>
         <main class="middle">
           <h2 class="middle__title">James's Findings:</h2>
           <div class="middle__container">
+          <div class="middle__text">
+Songs of top 20 artists by the numbers of popular songs from 2010 to 
+2019 on the Spotify platform are usually of pop genre, especially dance pop genre.
+The Dance pop genre has the greatest number of popular songs every year 
+from 2010 to 2019, and around 55% of the popular songs are dance 
+pop songs. 
+Songs released in 2019 are more popular than those released in 2010 – 
+2018.
+The result of the correlations show that features such as danceability, 
+acousticness, energy and duration could influence a song’s popularity. 
+However the relationships are not strong based on the results of the 
+correlations. <i>(See figure below)</i></div>
           <div style="width: 600px;"><canvas id="bar"></canvas></div>
-           <div style="width: 600px;"><canvas id="acquisitions"></canvas></div>
+          <div class="middle__text">
+            57% of the songs by top 20 artists are dance 
+pop songs. Almost all the songs by top 20 artists are pop songs, and 57% of the 
+songs are dance pop Almost all the songs by top 20 artists are pop songs, and 57% of the songs are dance pop songs.
+There is a good chance that a new artist will become famous after releasing dance pop song. <i>(See figure below)</i>
+          </div>
+          <div style="width: 600px;"><canvas id="acquisitions"></canvas></div>
+          <div class="middle__text"></div>
           <div style="width: 600px;"><canvas id="distribution"></canvas></div>
+          <div class="middle__text">Shown below is a "doughnut" graph showing the top 20 genres of music and the most popular songs in each category. 
+            As previously mentioned, Dance Pop is by far the most listened to genre. If you hover over the blue swath of color you can see that that genre alone contained 324 songs.
+            If you click on the Dance Pop [Rectangle] you can remove it and view a less skewed portrayal and distribution.
+          </div>
           <div style="width: 600px;"><canvas id="bell"></canvas></div>
+          <div class="middle__text">
+            Audio features could influence popularity. dB(loudness), danceability, valence, acousticness and bpm have positive relationships with popularity.
+Duration, liveness, energy and speechiness have negative relationships with popularity. However, the relationships are not very strong. <i>(See image below)</i>
+          </div>
           <img class="middle__image" alt="correlations" src="/images/output.png"/>
+          <div class="middle__text">
+            Analysis and Recommendations:
+            A new artist should start with English songs considering that English 
+is a dominant language.
+A new artist should start with dance pop songs because there is a 
+huge market of dance pop songs.
+A song with high danceability, high acousticness, low energy and 
+short duration is a good choice for a new artist.
+          </div>
           </div>
         </main>
 
@@ -124,7 +158,7 @@ energy, and short duration. Additionally, it should be easy to dance to.</li>
 </ul></div>
       </main>
 
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <h3 class="footer__title">The Music Junkies:</h3>
         <div class="footer__columns">
           <div class="footer__column">
