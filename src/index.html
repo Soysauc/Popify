@@ -26,7 +26,9 @@
 
       </header>
       <main class="wrap-middle">
-        <div class="left">
+        <div class="middle">
+                  <div class="left">
+
           <ul class="left__circles">
             <li class="left__circle" >
               <a class="left__circle-link" href="#top">
@@ -34,7 +36,7 @@
               </a>
             </li>
             <li class="left__circle">
-              <a class="left__circle-link" href="#acquisitions">
+              <a class="left__circle-link" href="#bar">
               <img src="/images/chart.png" alt= "home button" class="left__image">
               </a>
             </li>
@@ -52,7 +54,7 @@
                 <a class="left__circle-link" href="#bell">
                   <img src="/images/donut.png" alt= "home button" class="left__image">
                 </a>
-            </li>
+              </li>
             <li class="left__circle">
               <a class="left__circle-link" href="#contacts">
               <img src="/images/friends.png" alt= "home button" class="left__image">
@@ -60,7 +62,8 @@
             </li>
           </ul>
         </div>
-        <main class="middle">
+
+          <div class="middle__content">
           <h2 class="middle__title">James's Findings:</h2>
           <div class="middle__container">
           <div class="middle__text">
@@ -75,21 +78,21 @@ The result of the correlations show that features such as danceability,
 acousticness, energy and duration could influence a song’s popularity. 
 However the relationships are not strong based on the results of the 
 correlations. <i>(See figure below)</i></div>
-          <div style="width: 600px;"><canvas id="bar"></canvas></div>
+          <div class="canvas-wrapper"><canvas class="canvas-wrapper__canvas" id="bar"></canvas></div>
           <div class="middle__text">
             57% of the songs by top 20 artists are dance 
 pop songs. Almost all the songs by top 20 artists are pop songs, and 57% of the 
 songs are dance pop Almost all the songs by top 20 artists are pop songs, and 57% of the songs are dance pop songs.
 There is a good chance that a new artist will become famous after releasing dance pop song. <i>(See figure below)</i>
           </div>
-          <div style="width: 600px;"><canvas id="acquisitions"></canvas></div>
-          <div class="middle__text"></div>
-          <div style="width: 600px;"><canvas id="distribution"></canvas></div>
+          <div class="canvas-wrapper"><canvas class="canvas-wrapper__canvas" id="acquisitions"></canvas></div>
+          <div class="middle__text">The following chart has mapped out various different genres and the %of the popularity based on the genre. If you hover over the elements you can see the exact figure. It is qquite possible you haven't even considered the so many obscure genres on this list.</div>
+          <div class="canvas-wrapper"><canvas class="canvas-wrapper__canvas" id="distribution"></canvas></div>
           <div class="middle__text">Shown below is a "doughnut" graph showing the top 20 genres of music and the most popular songs in each category. 
             As previously mentioned, Dance Pop is by far the most listened to genre. If you hover over the blue swath of color you can see that that genre alone contained 324 songs.
             If you click on the Dance Pop [Rectangle] you can remove it and view a less skewed portrayal and distribution.
           </div>
-          <div style="width: 600px;"><canvas id="bell"></canvas></div>
+          <div class="canvas-wrapper"><canvas class="canvas-wrapper__canvas" id="bell"></canvas></div>
           <div class="middle__text">
             Audio features could influence popularity. dB(loudness), danceability, valence, acousticness and bpm have positive relationships with popularity.
 Duration, liveness, energy and speechiness have negative relationships with popularity. However, the relationships are not very strong. <i>(See image below)</i>
@@ -105,9 +108,10 @@ A song with high danceability, high acousticness, low energy and
 short duration is a good choice for a new artist.
           </div>
           </div>
-        </main>
+          </div>
 
-        <div class="right"> <h3>Motown Records:</h3> <i>James</i> is a driven and ambitious A&R for Motown Records.
+          <div class="right">
+             <h2>Motown Records:</h2> <div class="right__text"><i>James</i> is a driven and ambitious A&R for Motown Records.
 He is eager to make his mark on the company and secure a promotion.
 In order to do so, he decides to carefully study the top songs of the last decade in order to
 replicate the winning formula used by other successful labels, Atlantic and Interscope.
@@ -116,10 +120,10 @@ simultaneously starting his legacy.
 James begins his research by analyzing the top 20 artists from the United States, Canada, and
 the United Kingdom from 2010 to 2019. He finds that Katy Perry is the top artist, followed by
 Rhianna. In third place, there is a three-way tie between Justin Bieber, Lady Gaga, and Maroon
-5.
+5.</div>
 <div>
-  <img src="/images/celebs.webp" alt="celebrities" class="right__image"/ height="200px">
-</div>
+  <!-- <img src="/images/celebs.webp" alt="celebrities" class="right__image"> -->
+</div><div class="right__text">
 James continues his research and discovers that 57% of the songs created by artists belong to
 the Dance-Pop genre. This is an interesting finding, as it suggests that Dance-Pop is a
 dominant and successful genre in the present music industry.
@@ -143,10 +147,10 @@ Motown's lead music producer to ensure that their songs avoid these negative fac
 He found that the easier a song was to dance to, the more popular it tended to be. The same
 was true for songs with high acousticness. He also noted that in the current era of short
 attention spans, long song durations were seen as a negative. Audiences tended to prefer
-shorter songs.
+shorter songs.</div>
 <div>
-  <img src="/images/club.jpg" alt="celebrities" class="right__image"/ height="200px">
-</div>
+  <!-- <img src="/images/club.jpg" alt="celebrities" class="right__image"> -->
+</div><div class="right__text">
 After conducting extensive research and analysis, James has developed a formula for success:
 <ul>
 <li>His artist should primarily make songs in English, due to English being the dominant
@@ -156,6 +160,10 @@ focus on this genre.</li>
 <li>To maximize popularity, the artist's first song should have high acoustic tones, low
 energy, and short duration. Additionally, it should be easy to dance to.</li>
 </ul></div>
+</div>
+        
+
+                
       </main>
 
       <footer class="footer" id="contacts">

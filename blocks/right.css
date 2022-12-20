@@ -1,6 +1,6 @@
 .right {
   /* height: 625px; */
-  width: 100%;
+  /* width: 100%; */
   background-color: var(--top-color);
   color: var(--left-color);
   font-size: 0.9rem;
@@ -11,10 +11,7 @@
   height: fit-content;
 }
 
-@media (min-width: 40rem) {
-  .right {
-    /* width: 20.8333333%; */
-    width: 25%;
-    display: inline-block;
-  }
+.right__image {
+  /* max-width: 500px; */
+  /* appearance: none; */
 }

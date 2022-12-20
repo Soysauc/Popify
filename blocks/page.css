@@ -26,4 +26,6 @@ span {
   display: flex;
   font-size: 0;
   position: relative;
+  background-color: var(--top-color);
+  padding: 0 15px;
 }
